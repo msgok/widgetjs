@@ -21,6 +21,7 @@ Konfigurační objekt ``_msgokConfig`` se vkládá vždy na začátek skriptu a 
 | **classes**  | list of strings  | Připravené třídy, které ovlivňují vzhled nebo chování. Použijte názvy tříd z tabulky Seznam podporovaných tříd |
 | **color**  | string  | Barva textu (nebo ikonky) pro type=popup. Formát rgb (příklad ``rgb(255,255,255)``) |
 | **background**  | string  | Barva pozadí plovoucího okna (nebo pozadí ikonky) pro type=popup. Formát rgb (příklad ``rgb(0,0,0)``) |
+| **variables**  | object  | Objekt obsahující key - value hodnoty, které jsou předány do scénáře. Doporučení: používejte proměnných ``varX`` (kde X je číslo 1-9) ty jsou předány do scénáře automaticky. Vlastní názvy musí podporovat vygenerovaná šablona.  |
 
 
 ```js
@@ -32,7 +33,8 @@ _msgokConfig = {
   style: false,   
   recipient: "xxx",
   payload: "xxx", 
-  src: "xxx"
+  src: "xxx",
+  variables: {var1: "ahoj@seznam.cz"}
 };
 ```
 
