@@ -22,7 +22,7 @@ Konfigurační objekt ``_msgokConfig`` se vkládá vždy na začátek skriptu a 
 | **color**  | string  | Barva textu (nebo ikonky) pro type=popup. Formát rgb (příklad ``rgb(255,255,255)``) |
 | **background**  | string  | Barva pozadí plovoucího okna (nebo pozadí ikonky) pro type=popup. Formát rgb (příklad ``rgb(0,0,0)``) |
 | **variables**  | object  | Objekt obsahující key - value hodnoty, které jsou předány do scénáře. Doporučení: používejte proměnných ``varX`` (kde X je číslo 1-9) ty jsou předány do scénáře automaticky. Vlastní názvy musí podporovat vygenerovaná šablona.  |
-| **beforeStep**  | fnc  | Funkce kde je prvním parametru objekt s odpovědi uživatele a druhý v druhém parametru je callback funkce, kterou lze předat zpět nové proměnné, které se vloží do objektu `variables` před tím, než jsou odeslány po akci uživatele (kliknutí na tlačítko)  |
+| **beforeStep**  | fnc  | Funkce kde v prvním parametru je objekt s odpověďmi uživatele a v druhém parametru je callback funkce, kterou lze předat zpět nové proměnné, které se vloží do objektu `variables` před tím, než jsou odeslány po akci uživatele (kliknutí na tlačítko)  |
 
 
 
