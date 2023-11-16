@@ -2,6 +2,10 @@
 
 Konfigurační objekt ``_msgokConfig`` se vkládá vždy na začátek skriptu a slouží k přizpůsobení chování nebo vzhledu. Je stejný pro všechny typy použití.
 
+## Verze knihovny
+
+Aktuálně je poslední verze knihovny `v7.js`.
+
 ## Konfigurace
 
 | Název | Hodnota | Popis                                                    |
