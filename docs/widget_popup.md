@@ -6,7 +6,7 @@ Pokud se má widget sám otevírat, můžeme volat metodu ``show()`` bezprostře
 
 ```js
 var e = document.createElement("script");
-e.src = "https://cdn.msgok.net/client/v5.js";
+e.src = "https://cdn.msgok.net/client/[version].js";
 e.async = true;
 e.defer = true;
 e.addEventListener("load",function(){
@@ -35,7 +35,7 @@ Pokud se má widget otevírat až po kliknutí na odkaz (v příkladu na všechn
 
 ```js
 var e = document.createElement("script");
-e.src = "https://cdn.msgok.net/client/v5.js";
+e.src = "https://cdn.msgok.net/client/[version].js";
 e.async = true;
 e.defer = true;
 e.addEventListener("load",function(){
