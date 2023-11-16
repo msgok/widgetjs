@@ -13,7 +13,7 @@ Aktuálně je poslední verze knihovny `v7.js`.
 | **recipient**  |   string  | Povinné. Identifikace účtu |
 | **payload**  |   string  | Povinné. Identifikace scénáře |
 | **src**   |   string  | Povinné. Identifikace designu |
-| **type**  |   string  | Typ widgetu. Může být ``inline``, ``popup``, ``sidebar``. Výchozí ``inline``  |
+| **type**  |   string  | Typ widgetu. Může být ``inline``, ``popup``, ``sidebar``, ``modal``. Výchozí ``inline``  |
 | **title**  |  string  | Nadpis widgetu (jen pokud type=popup) |
 | **width**  |  int  | Šířka widgetu |
 | **maxHeight**  |  int  | Maximální výška widgetu v ``%`` (tzn. hodnota 90 odpovídá maximální výšce 90% velikosti okna prohlížeče) |
